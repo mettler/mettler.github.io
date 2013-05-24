@@ -9,18 +9,20 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- If you're reading this, you're spending too much time looking at our wedding website! Just show up at Yosemite already. -->
 
   </head>
 
@@ -34,12 +36,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Mike and Mollie&#39;s Wedding</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+	          <li class="active"><a href="#">Home</a></li>	
               <li><a href="schedule.html">Schedule</a></li>
               <li><a href="yosemite.html">Yosemite</a></li>
               <li><a href="rsvp.html">RSVP</a></li>
+              <li><a href="gifts.html">Gifts</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -48,33 +51,66 @@
 
     <div class="container">
 
-      <h1>Mike and Mollie are getting married!</h1>
-      <p>The Ahwahnee in Yosemite National Park. Date TBD.</p>
+      <h2>Mike and Mollie are getting married!</h2>
+      <p>The Ahwahnee, Yosemite National Park, March 3rd, 2013.</p>
 
     </div> <!-- /container -->
 
 
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
+
         <div class="item active">
-          <img src="img/img1.png" alt="">
+          <img src="img/1.jpg" alt="">
           <div class="carousel-caption">
             <p>We&#39;re getting married!</p>
           </div>
         </div>
+
         <div class="item">
-          <img src="img/img2.png" alt="">
+          <img src="img/3.jpg" alt="">
           <div class="carousel-caption">
-            <p>It may be snowing. Fortunately, there are six foot tall fireplaces at the Ahwahnee.</p>
+            <p>We hope you can join us! (Can you find Mike in this photo?)</p>
           </div>
         </div>
+
         <div class="item">
-          <img src="img/img3.png" alt="">
+          <img src="img/4.jpg" alt="">
+          <div class="carousel-caption">
+            <p>Yosemite has beautiful sunsets...</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/5.jpg" alt="">
+          <div class="carousel-caption">
+            <p>... and fun activities.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/2.jpg" alt="">
+          <div class="carousel-caption">
+            <p>It may be snowing.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/6.jpg" alt="">
+          <div class="carousel-caption">
+            <p>Fortunately, there are six foot tall fireplaces at the Ahwahnee.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/7.jpg" alt="">
           <div class="carousel-caption">
             <p>Thank you for sharing this with us! We love you.</p>
           </div>
         </div>
+
       </div>
+
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
@@ -82,7 +118,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/bootstrap-transition.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-collapse.js"></script>

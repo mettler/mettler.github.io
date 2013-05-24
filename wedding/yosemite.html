@@ -9,13 +9,13 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -34,12 +34,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="index.html">Mike and Mollie&#39;s Wedding</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+              <li><a href="index.html">Home</a></li>	
               <li><a href="schedule.html">Schedule</a></li>
               <li class="active"><a class="active" href="#">Yosemite</a></li>
               <li><a href="rsvp.html">RSVP</a></li>
+              <li><a href="gifts.html">Gifts</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -52,27 +53,67 @@
           <h2>Yosemite</h2>
         </div>
         <h3>Transportation</h3>
-        <p>Here is some excellent <a href="http://www.nps.gov/yose/planyourvisit/directions.htm">National Park Service info</a>, including maps, nearby airports, and driving directions.</p>
-        <h3>Lodging</h3>
-        <p>There are lots of options on the <a href="http://www.yosemitepark.com/lodging.aspx">main Yosemite lodging page</a>:</p>
+        <p><a target="_blank" href="http://www.nps.gov/yose/planyourvisit/directions.htm">Here is some excellent National Park Service info on planning your visit</a>, including maps, nearby airports, and driving directions.</p>
+        <p>Yosemite Valley is a 5 hour drive from San Francisco (this can take longer in heavy traffic). In addition, the weather in March unpredictable, so cars will need to carry snow chains and be prepared to use them. Shops where you can purchase chains are conveniently located on the way to Yosemite (<a target="_blank" href="http://www.nps.gov/yose/planyourvisit/tirechains.htm">more info here</a>).</p>
+        <p>The closest airports to Yosemite are Fresno (FAT - 2.5-hours), Modesto (MOD - 2 hours), and Merced (MCE - 2 hours). Sacramento (SAC) is a four-hour drive, and Bay Area airports (SFO, OAK, SJO) are all a five-hour drive. </p>
+        <p>Public transportation is not easy, but possible - here are some <a target="_blank" href="http://www.nps.gov/yose/planyourvisit/upload/airportpublictransit.pdf">instructions for getting to Yosemite from various airports</a>.</p>
+        <p>Various shuttles run from the San Francisco area to Yosemite, including <a target="_blank" href="http://www.starlinetours.com/yosemite-transportation.asp">StarLine Tours</a> (daily) and <a target="_blank" href="http://www.calpartours.com/yosemitetransportation.htm">California Parlor Car Tours</a> (Tues, Thurs, Sat, Sun).</p>
+        <p>Let us know if we can help you arrange a carpool.</p>
+        <h3>Hotels</h3>
+        <p>We have reserved a block of rooms at <a target="_blank" href="http://www.yosemitepark.com/yosemite-lodge.aspx">Yosemite Lodge</a> for $99/night (the standard rate is $149/night). To reserve a room at this rate, call the Special Functions Department at 801-559-5050, Monday through Friday, 8:00am-5:00pm. Reservations from the room block must be made by February 2nd, but we recommend booking as early as possible to ensure availability. <a href="#myModal" data-toggle="modal">The fine print is here</a>.</p>
+		<!-- Modal -->
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-header">
+		    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		    <h3 id="myModalLabel">Hotel reservations fine print</h3>
+		  </div>
+		  <div class="modal-body">
+            <p>All reservations must be made at least 30 days prior to arrival. One night's deposit is due when booking a room. Additional nights may be paid upon arrival.</p>
+            <p>Once a reservation has been booked, you may adjust that reservation up to 7 days prior to the arrival date (name, number of guests, arrival & departure dates, or cancellation). Re-booking and re-charging rooms to different credit cards is not permitted.</p>
+            <p>Reserved rooms require a 7-day advance cancellation or change notice for refund. Cancellations or changes received less than 7 days prior to arrival will automatically forfeit the first night deposit.</p>
+            <p></p>
+
+		  </div>
+		  <div class="modal-footer">
+		    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		  </div>
+		</div> 
+		
+        <p>There are other options on the <a target="_blank" href="http://www.yosemitepark.com/lodging.aspx">main Yosemite lodging page</a>:</p>
         <ul>
-	      <li><a href="http://www.yosemitepark.com/ahwahnee-accommodations.aspx">The Ahwahnee</a>: ceremony location, most expensive, $250/night</li>
-	      <li><a href="http://www.yosemitepark.com/yosemite-lodge.aspx">Yosemite Lodge</a>: rehearsal dinner location, mid-range, $110/night</li>
-	      <li>Tent Cabins at Curry Village</a>: heated or unheated, the cheapest option</li>	
-	      <li><a href="http://www.tenayalodge.com/">Tenaya Lodge</a> (ouside the park - about a 45 minute drive, dog-friendly)</li>	
+	      <li><a target="_blank" href="http://www.yosemitepark.com/ahwahnee-accommodations.aspx">The Ahwahnee</a>: ceremony location, fancy-schmancy, awesome six-foot fireplaces</li>
+	      <li><a target="_blank" href="http://www.yosemitepark.com/curry-village.aspx">Curry Village</a>: heated or unheated tent cabins, <a target="_blank" href="http://www.nps.gov/yose/planyourvisit/hantafaq.htm">now hantavirus-free</a>, the cheapest option in the park, and a fun adventure. Note, the cabins are only open weekends, so you would need a proper hotel room for Sunday night. The thrill-seeking or cold-tolerant among you may want to consider the <a target="_blank" href="http://www.yosemitepark.com/temp-rate-ture-offer.aspx">temperature-based booking rates</a>.</li>	
+	      <li><a target="_blank" href="http://www.tenayalodge.com/">Tenaya Lodge</a>: about a 45-minute drive outside the park, dog-friendly</li>	
 	    </ul>
+        <h3>Getting around the park</h3>
+        <p>You can drive everywhere you'll need to go, but the Yosemite Valley shuttle runs a loop around the valley floor and stops at or near all accommodations and major vistas around the park. This shuttle operates all year from 7 am to 10 pm, and it will also run later for us on the wedding night so you don't have to worry about driving.</p>
+        <p>Here's the <a target="_blank" href=" http://www.nps.gov/common/commonspot/customcf/apps/maps/showmap.cfm?alphacode=yose&parkname=Yosemite">official park map</a> that includes the shuttle route.</p>
+        <h3>Activities</h3>
+        <p>Yosemite in the winter is gorgeous, and the crowds are far less maddening than during the summer. Here are some possibilities:</p> 
+        <ul>
+	      <li>Take a day hike. Ask the park rangers for trail recommendations given the  weather conditions</li>
+	      <li>Ice skating at Curry Village</li>
+	      <li>Snowshoeing</li>
+          <li>Cross-country (and some amusing downhill) skiing at Badger Pass</li>
+          <li>Go sightseeing around the valley (Yosemite Falls, El Capitan, Half Dome, etc.)</li>
+          <li>Sit in front of the fireplaces at the Ahwahnee playing card/board games or reading</li>
+        </ul>
         <h3>Weather</h3>
-        <p>Current weather at Yosemite:</p>
-        <p><span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:95389.1.99999&bannertypeclick=wu_clean2day" title="Yosemite National Park, California Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_cond&airportcode=KMMH&ForcedCity=Yosemite National Park&ForcedState=CA&zip=95389&language=EN" alt="Find more about Weather in Yosemite National Park, CA" width="300" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:95389.1.99999&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank">More detailed weather info here</a></span></p>
+        <p>It will be cold, and possibly snowing or raining! Pack accordingly. Current weather at Yosemite:</p>
+        <p><span style="display: block !important; width: 320px; text-align: center;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:95389.1.99999&bannertypeclick=wu_clean2day" title="Yosemite National Park, California Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_cond&airportcode=KMMH&ForcedCity=Yosemite National Park&ForcedState=CA&zip=95389&language=EN" alt="Find more about Weather in Yosemite National Park, CA" width="300" /></a><br></p><p><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:95389.1.99999&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" target="_blank">More detailed weather info here</a></span></p>
       </section>
     </div>
+    <br />
+    <br />
+    <br />
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/bootstrap-transition.js"></script>
     <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
 
   </body>
 </html>

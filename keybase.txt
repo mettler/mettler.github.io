@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/mettler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mettler.github.io
+  * I am mettler (https://keybase.io/mettler) on keybase.
+  * I have a public key with fingerprint 1C14 1B35 92EC 68C6 807E  0B33 8305 3D75 0F12 BE68
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "1c141b3592ec68c6807e0b3383053d750f12be68",
+            "host": "keybase.io",
+            "key_id": "83053d750f12be68",
+            "uid": "ae9b70595ff27973efc6c502ca558e00",
+            "username": "mettler"
+        },
+        "service": {
+            "hostname": "mettler.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1400877821,
+    "expire_in": 157680000,
+    "prev": "b251bbd25527542fddad593d4c449f45eae862b1a2aec3ea47d4efe8440708b4",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.17
+Comment: https://keybase.io/crypto
+
+yMHtAnicbZFdSBRdGMd3t1Zz+2AtyS6K4lAQssp87swuCaFbQlhJEolU23ycWcd0
+Zp2dXVc3NbDsfaELSRez9QN9s7q0wKwgsywv2uwi0D4xrKxQg1BeBcv0jNVF0OHA
+4fyf3/N/nnOeh2tXmGzmbFdrsHbvaKM53j8bNOXX3FiIAF4VK4A7Ak7C5UOSFR/U
+/Jqs6MANcAGncJ6kXQQUnCzaGAMxniRZEqNJkaExCSd46GSBAxSpASMD2fBcAGbI
+KtLQxSuLSP0LH1wOcNDFMxjtoiWJYFwMCSXBKdAYIXA0zUIMM8AA1BSuFCK6FOp6
+CdRAlQMgMSQLSIwsV/4TyPDJelGQ/9mEX1N1VVBLULhI1/0Bt5GuV/gNvhzy3l9O
+Xl5WRPR4lBGCWkBWFeDGESnosmGNUxjGMgxL4A4Aw35Zg17ZIGgGfQpaRh0YQpY8
+QeM8LxI0TTA0RUiiyIm0ixQpgaJcEkVDDrJOgsc5goMCCTmKESkoQZaiMAZjeQrV
+D8AyRQVuArXJ+ZBlQPYpnB7UIKh60H90pclsMyVYLcb4TLYk+++hNucnLhbKOTlN
+Lym8TUvZZLckJ2ee89YV1P8TA5Edeb3DsdG4Z+oxsBf3xZT5jvEj3wrPFEz0rhbU
+zpaR4Sf9ue8OzDesL6ucblgcSE+7uNG07nT74cZQel7Yfn/iQ3jVYM7TluF4gn5+
++lP82rO2NHPSe3trz7Gs67u7bw8t4L6z1uKrs2PUnRmiejyzaqy0K3xl/+T0166y
+fZs9r8iszxbP5Q0Vh9L5jsrOfxP/G+iONr89MRU9fmrwVs1M2mR7Rkn98+5d0vY3
+5Wte91j7Ou+9mLPYaqMp0SbsrvXR94Oe/93ZUvnNPY2p1Vug8iV1ZNvOhB+X5kJ1
+jvytsSHx44XE3OAS+LYYRw==
+=zj2X
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mettler
+
+==================================================================

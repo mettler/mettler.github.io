@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+	<script type='text/javascript' src='https://js.braintreegateway.com/v2/braintree.js'></script>
+	
+    <script>	
+	 
+	  var client_token_from_server = $.get("https://taprooted.herokuapp.com/client_token");
+	  
+	  braintree.dropin.create(client_token_from_server, {
+	    container: 'checkout'
+	  });
+	  	  
+    </script>
+	
+  </head>
+  <body>
+    <div class="checkout-form">
+        <form id="form" method="post" action="">
+          <div id="checkout"></div>
+          <input type="submit" value="Buy all the things!">
+        </form>
+    </div>
+  </body>
+</html>
